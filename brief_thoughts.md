@@ -1,0 +1,23 @@
+- Data required
+  - metadata
+    - field metadata
+      - sampling type
+      - sampling effort
+        - dates
+        - locations
+        - durations, number of traps, etc
+    - labwork metadata
+      - extraction protocol and kit
+      - PCR primers used (info on other reagents preferred)
+      - Library preparation information
+      - Sequencer used and appropriate parameters
+    - bioinformatics metadata
+      - demultiplexing strategy, if appropriate
+      - primer and adaptor removal
+      - denoising and/or clustering strategy
+      - taxonomic assignment process, if any
+        - algorithm
+        - reference library
+  - core data
+    - raw sequencing files (probably demultiplexed, depending on sequencer)
+    - adjacency list, with uids to tie sequences to the sample which provided them
